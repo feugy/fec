@@ -1,0 +1,38 @@
+{
+  "name": "pilot2fec",
+  "version": "1.0.0",
+  "description": "Transform JePilote.com exports to compliant FEC files",
+  "main": "lib/index.js",
+  "bin": {
+    "fec": "bin/fec.js"
+  },
+  "scripts": {
+    "test": "lab"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/feugy/fec.git"
+  },
+  "author": "feugy <damien.feugas@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/feugy/fec/issues"
+  },
+  "homepage": "https://github.com/feugy/fec#readme",
+  "dependencies": {
+    "bluebird": "3.5.0",
+    "csv": "1.1.1",
+    "mkdirp": "0.5.1",
+    "yargs": "7.0.2"
+  },
+  "engineStrict": true,
+  "engines": {
+    "node": ">=7.7.x"
+  },
+  "devDependencies": {
+    "lab": "13.0.1",
+    "lab-espower-transformer": "1.1.0",
+    "power-assert": "1.4.2",
+    "rimraf": "2.6.1"
+  }
+}
